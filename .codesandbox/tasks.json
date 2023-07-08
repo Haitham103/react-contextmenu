@@ -1,0 +1,86 @@
+{
+  // These tasks will run in order when initializing your CodeSandbox project.
+  "setupTasks": [
+    {
+      "name": "Install Dependencies",
+      "command": "yarn install"
+    }
+  ],
+
+  // These tasks can be run from CodeSandbox. Running one will open a log in the app.
+  "tasks": {
+    "lint": {
+      "name": "lint",
+      "command": "yarn lint",
+      "runAtStart": false
+    },
+    "test": {
+      "name": "test",
+      "command": "yarn test",
+      "runAtStart": false
+    },
+    "test:only": {
+      "name": "test:only",
+      "command": "yarn test:only",
+      "runAtStart": false
+    },
+    "test:dev": {
+      "name": "test:dev",
+      "command": "yarn test:dev",
+      "runAtStart": false
+    },
+    "clean": {
+      "name": "clean",
+      "command": "yarn clean",
+      "runAtStart": false
+    },
+    "clean:examples": {
+      "name": "clean:examples",
+      "command": "yarn clean:examples",
+      "runAtStart": false
+    },
+    "build": {
+      "name": "build",
+      "command": "yarn build",
+      "runAtStart": false
+    },
+    "build:dist": {
+      "name": "build:dist",
+      "command": "yarn build:dist",
+      "runAtStart": false
+    },
+    "build:es5": {
+      "name": "build:es5",
+      "command": "yarn build:es5",
+      "runAtStart": false
+    },
+    "build:es6": {
+      "name": "build:es6",
+      "command": "yarn build:es6",
+      "runAtStart": false
+    },
+    "build:examples": {
+      "name": "build:examples",
+      "command": "yarn build:examples",
+      "runAtStart": false
+    },
+    "build:dev": {
+      "name": "build:dev",
+      "command": "yarn build:dev",
+      "runAtStart": false
+    },
+    "start": {
+      "name": "start",
+      "command": "yarn start",
+      "runAtStart": true,
+      "preview": {
+        "port": 8080
+      }
+    },
+    "prepublishOnly": {
+      "name": "prepublishOnly",
+      "command": "yarn prepublishOnly",
+      "runAtStart": false
+    }
+  }
+}
